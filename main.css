@@ -1,0 +1,109 @@
+.batman {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .pirma {
+    background: url(pic/background.svg);
+    background-size: cover;
+    margin-left: -90px;
+  
+    
+}
+
+.antra {
+    display: inline-flex;
+    gap: 10%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+
+.h2-batman {
+    font-size: 25px;
+    padding-top: 25px;
+    width: 340px;  
+    margin-left: 14px;
+    color: black;
+  }
+
+  .trecia {
+    display: block;
+    width: 330px;
+}
+
+.opensea {
+    text-decoration: underline;
+}
+
+  p {
+    font-size: 20px;
+    color: black;
+    word-wrap: normal;
+  }
+
+  
+
+
+  .nft-text {
+    background-color:  #eeeeee;
+    padding: 19px;
+    border-bottom-left-radius: 19px;
+    border-bottom-right-radius: 19px;
+    height: 109px; 
+    margin-top: -10px;  
+    padding-top: 0px;
+  }
+  
+  .text-row1, .text-row2, .text-row3 {
+    display: flex;
+    justify-content: space-between;
+    height: 1.7rem;
+    }
+  .korteles {
+    width: 350px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 19px;
+    align-items: center;
+    margin-bottom: 100px;
+    }
+  
+    .eth {
+      display: flex;
+      justify-content: space-around;
+      height: fit-content;
+    }
+  
+    .glo {
+        color:#efa370;
+        font-size: 14px;
+        margin-top: 24px;
+      }
+      .super {
+        font-size: 14px;
+        margin-top: 24px;
+      }
+      h4 {
+        font-size: 19px;
+        margin-top: 19px;
+        padding-left: 5px;
+      }
+      
+      .number, .time, .super, .p-grey, h5, .p-footer {
+        color:grey;
+      }
+      
+      h5 {
+        font-weight: 900;
+        font-size: 14px;
+        margin-bottom: 49px;
+      }
+      
+      .p-footer {
+        margin-top: -9px;
+      }
+      
+      .p-batman {
+        margin-left: 13px;
+    }
